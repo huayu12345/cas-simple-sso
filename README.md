@@ -10,6 +10,11 @@ cas.authn.jdbc.query[0].url=jdbc:mysql://localhost:3306/test?useUnicode=true&cha
 
 Jdk的证书是写在D:\Java\jre1.8.0_181\lib\security\cacerts中的，而非在D:\Java\jdk1.8.0_181\jre\lib\security\cacerts中
 
+Cas-SpringBoot内部运行:http://www.ibloger.net/article/3114.html
+Cas-单点登录JDBC认证：http://www.ibloger.net/article/3119.html
+Cas- 实现SSO单点登录：http://www.ibloger.net/article/3126.html
+
+
 如何将https改为http来登录cas服务器：
 1.将target\cas\WEB-INF\classes的services目录以及application.properties文件复制到cas-overlay-template-master\src\main\resources中
 2.修改application.properties，加入配置：

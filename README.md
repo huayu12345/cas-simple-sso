@@ -26,6 +26,7 @@ Cas- 实现SSO单点登录：http://www.ibloger.net/article/3126.html
 3.修改services\HTTPSandIMAPS-10000001.json
       "serviceId" : "^(https|http|imaps)://.*",
  	    "name" : "HTTPS and HTTP and IMAPS",
+4.services\HTTPSandIMAPS-10000001.json中必须有http，http的客户端才能正常访问https或者http的服务端，否则则会报出未认证的错误
 即可以用http登录cas
 
 CAS-自定义CAS Server端登录页面可参考链接：https://www.jianshu.com/p/72af74575f6d
